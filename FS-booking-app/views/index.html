@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../public/css/style.css" />
+        <title>Booking Appointment App</title>
+    </head>
+    <body>
+        <form class="form-detail" id="form-detail" onsubmit="saveToLocalStorage(event)">
+            <h1 class="title">Book a call!</h1>
+            <p class="booking">
+              Book a call slot and our representative will call you back.
+            </p>
+            <hr />
+            <label> Name:</label> <br />
+            <input id="username" type="text" name="username" required /> <br />
+            <label> Email: </label> <br />
+            <input id="email" type="email" name="emailId" required /> <br />
+            <label> Phone: </label> <br />
+            <input id="phonenumber" type="number" name="phonenumber" required />
+            <br /> <br/>
+            <button class="btn">Get a call</button>
+          </form>
+        <ul id='listOfUsers'></ul>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+        <script src="../public/js/index.js"></script>
+        
+    </body>
+</html> 

@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(165, 172, 178);
+}
+
+
+.form-detail{
+   background-color: aliceblue;
+   width: 500px;
+   height: 270px;
+   margin: auto;
+   border-radius: 5px;
+   border: 4px rgb(57, 45, 45);
+}
+
+
+.title{
+    text-align: center;
+    color: rgb(57, 44, 44);
+    font-size: 30px;
+}
+
+.booking{
+    text-align: center;
+}
+
+hr{
+    margin: 5px;
+}
+label{
+    padding: 5px;
+}
+ input{
+    width: 480px;
+    height: 20px;
+    margin-left: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+} 
+.btn{
+    text-align: center;
+    background-color: rgb(85, 79, 85);
+    height: 30px;
+    width: 488px;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+
